@@ -3,7 +3,6 @@ from django.utils.timezone import now
 from uuslug import slugify
 from abc import abstractmethod, abstractproperty, ABCMeta
 from django.contrib.sites.models import Site
-'hahhahahahahha'
 
 
 class BaseModel(models.Model):
@@ -58,4 +57,3 @@ class Article(BaseModel):
         ('p', '页面'),
     )
     title = models.CharField('标题', max_length=200, unique=True)
-    body = models.
