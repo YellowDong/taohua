@@ -3,6 +3,7 @@ from django.utils.timezone import now
 from uuslug import slugify
 from abc import abstractmethod, abstractproperty, ABCMeta
 from django.contrib.sites.models import Site
+'test'
 
 
 class BaseModel(models.Model):
