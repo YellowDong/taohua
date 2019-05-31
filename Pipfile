@@ -10,6 +10,8 @@ django = "*"
 uuslug = "*"
 django-uuslug = "*"
 markdown2 = "*"
+django-mdeditor = "*"
+requests-html = "*"
 
 [requires]
 python_version = "3.6"
